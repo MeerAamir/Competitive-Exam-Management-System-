@@ -1,0 +1,139 @@
+/* Admin.module.css */
+.container {
+    color: #e2e8f0;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 2rem;
+}
+
+.title {
+    font-size: 1.8rem;
+    font-weight: 700;
+    color: #ffffff;
+}
+
+.card {
+    background-color: #1a202c;
+    border: 1px solid #2d3748;
+    border-radius: 12px;
+    padding: 1.5rem;
+    margin-bottom: 1.5rem;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.cardTitle {
+    font-size: 1.1rem;
+    font-weight: 600;
+    margin-bottom: 1rem;
+    color: #a0aec0;
+}
+
+.statValue {
+    font-size: 2.5rem;
+    font-weight: 700;
+    color: #00f0ff;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 1.5rem;
+    margin-bottom: 2rem;
+}
+
+.tableContainer {
+    overflow-x: auto;
+    background-color: #1a202c;
+    border-radius: 12px;
+    border: 1px solid #2d3748;
+}
+
+.table {
+    width: 100%;
+    border-collapse: collapse;
+    color: #e2e8f0;
+}
+
+.table th,
+.table td {
+    padding: 1rem;
+    text-align: left;
+    border-bottom: 1px solid #2d3748;
+}
+
+.table th {
+    background-color: #2d3748;
+    font-weight: 600;
+    color: #ffffff;
+}
+
+.table tr:hover {
+    background-color: rgba(255, 255, 255, 0.05);
+}
+
+.btn {
+    padding: 0.5rem 1rem;
+    border-radius: 6px;
+    font-weight: 500;
+    cursor: pointer;
+    border: none;
+    transition: all 0.2s;
+}
+
+.btnPrimary {
+    background-color: #6a3dfd;
+    color: white;
+}
+
+.btnPrimary:hover {
+    background-color: #5830d9;
+}
+
+.btnDanger {
+    background-color: #e53e3e;
+    color: white;
+}
+
+.btnDanger:hover {
+    background-color: #c53030;
+}
+
+.input {
+    background-color: #2d3748;
+    border: 1px solid #4a5568;
+    color: white;
+    padding: 0.5rem 1rem;
+    border-radius: 6px;
+    width: 100%;
+}
+
+.input:focus {
+    outline: none;
+    border-color: #6a3dfd;
+}
+
+.badge {
+    padding: 0.25rem 0.5rem;
+    border-radius: 4px;
+    font-size: 0.85rem;
+    font-weight: 600;
+}
+
+.badgeSuccess {
+    background-color: rgba(72, 187, 120, 0.2);
+    color: #48bb78;
+}
+
+.badgeWarning {
+    background-color: rgba(237, 137, 54, 0.2);
+    color: #ed8936;
+}
+
+.badgeDanger {
+    background-color: rgba(245, 101, 101, 0.2);
+    color: #f56565;
+}
